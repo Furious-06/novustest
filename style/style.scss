@@ -21,8 +21,8 @@
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        img {
-            width: 100%;
+        img{
+            max-width: 100%;
             height: auto;
         }
     }
@@ -82,16 +82,21 @@
         padding: 3rem;
         .work-div {
             font-size: 1rem;
-            font-weight: 700;
             display: flex;
             justify-content: start;
             text-align: start;
             .work-left-content {
+                h4{
+                    font-size: 20px;
+                }
                 border-right: 1px solid $color3;
             }
             .work-right-content {
+                h4{
+                    font-size: 20px;
+                }
                 p {
-                    font-size: 13px;
+                    font-size: 18px;
                 }
             }
         }
@@ -135,7 +140,7 @@
         }
         .VKIY {
             img {
-                width: 40%;
+                min-width: 30%;
                 @include breakpoint(desktop) {
                     width: 30%;
                 }
@@ -237,8 +242,8 @@
             justify-content: end;
             .nav-item {
                 margin: 5px;
-                color: $color;
                 a {
+                    color: $color2;
                     text-decoration: none;
                     &:hover {
                         color: $color2;
