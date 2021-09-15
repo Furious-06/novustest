@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap-grid.rtl.min.css">
 </head>
@@ -18,39 +19,39 @@
 <body>
     <section class="header">
         <div class="container main-container">
-            <header class="row col-12 py-3 mb-4">
+            <header class="row d-flex justify-content-center flex-wrap col-12 py-3 mb-4">
                 <a href="index.html"
-                    class="logo d-flex align-items-center col-6 mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-                    <img src="/img/logo.svg" alt="Novus Ventures">
+                    class="logo d-flex align-items-center col-6 mb-3 mb-md-0 me-md-auto text-dark border-0 text-decoration-none">
+                    <img class="mw-100" src="/img/logo.svg" alt="Novus Ventures">
                 </a>
-                <ul class="nav__items d-flex col-6 align-items-center">
-                    <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Brands</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Team</a></li>
+                <ul class="nav__items fs-5 d-flex justify-content-end col-6 align-items-center">
+                    <li class="nav-item ms-2"><a href="#contact" class="nav-link">Contact</a></li>
+                    <li class="nav-item ms-2"><a href="#brand" class="nav-link">Brands</a></li>
+                    <li class="nav-item ms-2"><a href="#team" class="nav-link">Team</a></li>
                 </ul>
             </header>
         </div>
     </section>
-    <section class="hero-section">
-        <div class="container p-0 m-md-auto">
+    <section class="hero-section bg-white">
+        <div class="container p-0 py-5 d-flex flex-column text-center m-md-auto">
             <div class="text-center">
-                <h1 class="fw-bold hero-heading">From Defining To Refining, We Do It All For Your Business
+                <h1 class="fw-bold my-0 px-0 hero-heading">From Defining To Refining, We Do It All For Your Business
                 </h1>
                 <p class=" fs-5 hero-p">Unlimited And More Than Just Unlimited</p>
             </div>
-            <div class="row col-12 mt-4 pt-5 m-auto">
-                <div class=" mt-4 mb-4 col-6 col-md-4 hero-img "><img src="/img/draftss.png" alt="draftss"></div>
-                <div class=" mt-4 mb-4 col-6 col-md-4 hero-img "><img src="/img/prospectss.png" alt="draftss"></div>
-                <div class=" mt-4 mb-4 col-6 col-md-4 hero-img "><img src="/img/codingss.png" alt="draftss"></div>
-                <div class=" mt-4 mb-4 col-6 col-md-4 hero-img "><img src="/img/designesque.png" alt="draftss"></div>
-                <div class=" mt-4 mb-4 col-6 col-md-4 hero-img "><img src="/img/VKIY.png" alt="draftss"></div>
-                <div class=" mt-4 mb-4 col-6 col-md-4 hero-img "><img src="/img/EventBaba.png" alt="draftss"></div>
+            <div class="row align-items-center col-12 mt-4 pt-5 m-auto">
+                <div class=" mt-4 mb-4 col-6 col-md-4 d-flex justify-content-center "><img class="mw-100" src="/img/draftss.png" alt="draftss"></div>
+                <div class=" mt-4 mb-4 col-6 col-md-4 d-flex justify-content-center "><img class="mw-100" src="/img/prospectss.png" alt="draftss"></div>
+                <div class=" mt-4 mb-4 col-6 col-md-4 d-flex justify-content-center "><img class="mw-100" src="/img/codingss.png" alt="draftss"></div>
+                <div class=" mt-4 mb-4 col-6 col-md-4 d-flex justify-content-center "><img class="mw-100" src="/img/designesque.png" alt="draftss"></div>
+                <div class=" mt-4 mb-4 col-6 col-md-4 d-flex justify-content-center "><img class="mw-100" src="/img/VKIY.png" alt="draftss"></div>
+                <div class=" mt-4 mb-4 col-6 col-md-4 d-flex justify-content-center "><img class="mw-100" src="/img/EventBaba.png" alt="draftss"></div>
             </div>
         </div>
     </section>
-    <section class="work">
-        <div class="container py-5 work-content">
-            <div class="row work-div">
+    <section class="work bg-white d-flex py-5">
+        <div class="container py-5 work-content bg-black p-5">
+            <div class="row work-div d-flex justify-content-start text-start">
                 <div class="col work-left-content">
                     <h4 class="fw-bold">Who we are?</h4>
                     <p class="fs-5 mt-5">Novus Ventures</p>
@@ -65,11 +66,11 @@
         </div>
     </section>
 
-    <section class="brand-services py-5" id="brands">
+    <section class="brand-services py-5 bg-white" id="brands">
         <div class="container p-0 ml-5 mr-5 py-5">
-            <h2 class="fw-bold our-brands">Our Brands</h2>
+            <h2 class="fw-bold our-brands d-flex justify-content-center mb-0">Our Brands</h2>
 
-            <div class="row m-auto head-sev mt-5 pb-4 our-brands-hide">
+            <div class="row m-auto head-sev align-items-center mt-5 pb-4 our-brands-hide">
                 <div class="col">
                     <h3 class="fw-bold">Brands</h3>
                 </div>
@@ -168,39 +169,39 @@
         </div>
     </section>
 
-    <section class="contact-info" id="contact">
-        <div class="container p-5">
-            <div class="row contact-info-div">
-                <div class="col cont-desc contact-info-desc-div">
+    <section class="contact-info d-flex bg-white py-5" id="contact">
+        <div class="container bg-black p-5">
+            <div class="row contact-info-div d-flex align-items-center">
+                <div class="col cont-desc contact-info-desc-div text-start">
                     <h4 class="fw-bold">Contact Us</h4>
                     <p class="mt-4 mb-0"><a href="mailto:contact@novusventures.in"
-                            class="novus-contact">contact@novusventures.in</a></p>
+                            class="novus-contact text-decoration-none">contact@novusventures.in</a></p>
                     <p class="mt-4 mb-0 novus-address">Bandra West, Mumbai, Maharastra - 000000</p>
                 </div>
 
-                <div class="col cont-btn contact-info-desc-div align-items-start align-items-md-end">
-                    <button type="button" class="contact-btn">Contact
+                <div class="col cont-btn contact-info-desc-div align-items-start text-end align-items-md-end">
+                    <button type="button" class="contact-btn bg-white rounded-0 py-3 px-4 fs-4 fw-normal">Contact
                         Us</button>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="footer py-5">
+    <section class="footer bg-white py-5">
         <div class="container p-0">
-            <footer class="px-2 px-md-4 footer-body d-flex flex-wrap justify-content-space-between py-3">
-                <a href="index.html" class="footer-logo d-flex">
+            <footer class="px-2 px-md-4 footer-body d-flex flex-wrap justify-content-between align-items-center py-3">
+                <a href="index.html" class="footer-logo d-flex align-items-center text-decoration-none">
                     <img src="img/logo-black.svg" alt="Novus Ventures" width="100%" height="auto">
                 </a>
 
-                <div class=" px-2 px-md-4 footer-nav">
-                    <div class="nav-item"><a href="#brands" class="nav-link novus-footer">Brand</a></div>
-                    <div class="nav-item"><a href="#team" class="nav-link novus-footer">Team</a></div>
-                    <div class="nav-item"><a href="#contact" class="nav-link novus-footer">contact</a></div>
+                <div class=" px-2 px-md-4 footer-nav d-flex justify-content-end align-items-center fs-5">
+                    <div class="nav-item"><a href="#brands" class="nav-link text-decoration-none">Brand</a></div>
+                    <div class="nav-item"><a href="#team" class="nav-link text-decoration-none">Team</a></div>
+                    <div class="nav-item"><a href="#contact" class="nav-link text-decoration-none">contact</a></div>
                 </div>
             </footer>
 
-            <p class=" px-2 px-md-4 text-center fs-6 copyright">@ Novus Ventures Private Limited. All rights reserved</p>
+            <p class=" px-2 px-md-4 text-start fs-6 copyright">@ Novus Ventures Private Limited. All rights reserved</p>
         </div>
     </section>
 
